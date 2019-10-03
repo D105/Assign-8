@@ -1,0 +1,44 @@
+html{
+	padding : 0;
+	margin : 0;
+}
+
+nav {
+	height : 10vh;
+	width : 100vw;
+}
+
+
+
+#navId{
+	display : flex;
+	justify-content : flex-end;
+}
+
+#navId li{
+	margin-right : 5vw;
+	list-style : none;
+}
+
+
+li{
+	padding : 1.6em;
+	display : flex;
+	flex-direction : row;
+	justify-content : space-evenly;
+}
+
+a{
+	text-decoration : none;
+	color : black;
+}
+
+a:link{}
+
+a:visited{}
+
+a:focus{}
+
+a:hover{}
+
+a:active{}
