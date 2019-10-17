@@ -8,8 +8,6 @@ nav {
 	width : 100vw;
 }
 
-
-
 #navId{
 	display : flex;
 	justify-content : flex-end;
@@ -19,7 +17,6 @@ nav {
 	margin-right : 5vw;
 	list-style : none;
 }
-
 
 li{
 	padding : 1.6em;
