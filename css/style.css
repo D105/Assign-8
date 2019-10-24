@@ -64,4 +64,8 @@ a:active {
   .historicalParagraph {
     max-width: 200px;
   }
+
+  img{
+	display: none;
+  }
 }
