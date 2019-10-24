@@ -18,6 +18,13 @@ nav {
   list-style: none;
 }
 
+#intro_text{
+	max-width: 80vw;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 li {
   padding: 1.6em;
   display: flex;
