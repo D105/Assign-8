@@ -1,53 +1,67 @@
-html{
-	padding : 0;
-	margin : 0;
+html {
+  padding: 0;
+  margin: 0;
 }
 
 nav {
-	height : 10vh;
-	width : 100vw;
+  height: 10vh;
+  width: 100vw;
 }
 
-#navId{
-	display : flex;
-	justify-content : flex-end;
+#navId {
+  display: flex;
+  justify-content: flex-end;
 }
 
-#navId li{
-	margin-right : 2vw;
-	list-style : none;
+#navId li {
+  margin-right: 2vw;
+  list-style: none;
 }
 
-li{
-	padding : 1.6em;
-	display : flex;
-	flex-direction : row;
-	justify-content : space-evenly;
+li {
+  padding: 1.6em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
-a{
-	text-decoration : none;
-	color : black;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-a:link{}
+a:link {
+  color: blue;
+}
 
-a:visited{}
+a:visited {
+}
 
-a:focus{}
+a:focus {
+}
 
-a:hover{}
+a:hover {
+}
 
-a:active{}
+a:active {
+}
+
+.historicalParagraph {
+  max-width: 300px;
+}
 
 @media only screen and (max-width: 600px) {
-	li {
-	  padding: 0;
-	  padding-right: 1vw;
-	}
+  li {
+    padding: 0;
+    padding-right: 1vw;
+  }
 
-	#navId{
-		display : flex;
-		justify-content : center;
-	}
+  #navId {
+    display: flex;
+    justify-content: center;
+  }
+
+  .historicalParagraph {
+    max-width: 200px;
+  }
 }
