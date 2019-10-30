@@ -1,19 +1,4 @@
 @font-face {
-  font-family: 'norseregular';
-  src: url('../fonts/norse-webfont.woff2') format('woff2'),
-       url('../fonts/norse-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'norsebold';
-  src: url('../fonts/norse-bold-webfont.woff2') format('woff2'),
-      url('../fonts/norse-bold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'viking-normalregular';
   src: url('../fonts/viking-normal-webfont.woff2') format('woff2'),
        url('../fonts/viking-normal-webfont.woff') format('woff');
@@ -22,13 +7,23 @@
 }
 
 @font-face {
-  font-family: 'viking_hellregular';
-  src: url('../fonts/viking_hell-webfont.woff2') format('woff2'),
-       url('../fonts/viking_hell-webfont.woff') format('woff');
+  font-family: 'nordica_plnordicaclassicrgext';
+  src: url('../fonts/nordicaclassicrgext-webfont.woff2') format('woff2'),
+       url('../fonts/nordicaclassicrgext-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
 }
+
+@font-face {
+  font-family: 'nordica_pnordicaclassicrgcond';
+  src: url('../fonts/nordicaclassicrgcond-webfont.woff2') format('woff2'),
+       url('../fonts/nordicaclassicrgcond-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 
 html {
   padding: 0;
@@ -48,21 +43,26 @@ nav {
 #navId li {
   margin-right: 2vw;
   list-style: none;
+  font-family: 'nordica_pnordicaclassicrgcond', 'Sans-serif', 'Arial';
 }
 
 h1{  
   font-family: 'viking-normalregular', 'Arial', 'Sans-serif';
 }
 
-p{
+h2{
   font-family: 'viking-normalregular', 'Arial', 'Sans-serif';
 }
+
+p{ 
+  font-family: 'nordica_plnordicaclassicrgext', 'Sans-serif', 'Arial';
+}
+
 #intro_text{
 	max-width: 80vw;
 	align-content: center;
 	margin-left: auto;
   margin-right: auto;
-  font-family: 'viking_hellregular', 'Arial', 'Sans-serif';
 }
 
 li {
@@ -78,7 +78,7 @@ a {
 }
 
 a:link {
-  color: blue;
+  color: black;
 }
 
 a:visited {
