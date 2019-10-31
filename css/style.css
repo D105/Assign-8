@@ -28,11 +28,18 @@
 html {
   padding: 0;
   margin: 0;
+  background: #8C8564;
+  color: #ffffff;
+}
+
+header{
+  background-image: url("/images/vikings-background-369648.jpg");
 }
 
 nav {
   height: 10vh;
-  width: 100vw;
+  width: 98vw;
+  
 }
 
 #navId {
@@ -46,7 +53,8 @@ nav {
   font-family: 'nordica_pnordicaclassicrgcond', 'Sans-serif', 'Arial';
 }
 
-h1{  
+h1{
+  background: #343D59;
   font-family: 'viking-normalregular', 'Arial', 'Sans-serif';
 }
 
@@ -74,11 +82,11 @@ li {
 
 a {
   text-decoration: none;
-  color: black;
+  color:#ffffff;;
 }
 
 a:link {
-  color: black;
+  color: #ffffff;
 }
 
 a:visited {
