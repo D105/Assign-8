@@ -32,8 +32,15 @@ html {
   color: #ffffff;
 }
 
+body{
+  padding: 0;
+  margin: 0;
+}
+
 header{
-  background-image: url("/images/vikings-background-369648.jpg");
+  background-image: url("../images/back_vik.jpg");
+  background-size: 100%;
+  height: 30vh;
 }
 
 nav {
