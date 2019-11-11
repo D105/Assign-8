@@ -125,6 +125,8 @@ a:active {
     margin-top: 0;
     padding-top: 2vh;
     padding-left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
   }
 
   #h1Top {
@@ -133,6 +135,7 @@ a:active {
 
   .historicalParagraph {
     max-width: 200px;
+    padding-left: 0.5em;
   }
 
   img {
@@ -148,9 +151,11 @@ a:active {
   }
 
   li {
-    justify-content: space-around;
+    justify-content: space-between;
   }
   h2 {
     align-self: center;
+    text-align: center;
+    font-size: 1.4em;
   }
 }
