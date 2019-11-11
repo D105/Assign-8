@@ -138,4 +138,19 @@ a:active {
   img {
     display: none;
   }
+
+  #sweedishIntro {
+    display: none;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    justify-content: space-around;
+  }
+  h2 {
+    align-self: center;
+  }
 }
