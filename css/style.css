@@ -1,43 +1,40 @@
 @font-face {
-  font-family: 'viking-normalregular';
-  src: url('../fonts/viking-normal-webfont.woff2') format('woff2'),
-       url('../fonts/viking-normal-webfont.woff') format('woff');
+  font-family: "viking-normalregular";
+  src: url("../fonts/viking-normal-webfont.woff2") format("woff2"),
+    url("../fonts/viking-normal-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'nordica_plnordicaclassicrgext';
-  src: url('../fonts/nordicaclassicrgext-webfont.woff2') format('woff2'),
-       url('../fonts/nordicaclassicrgext-webfont.woff') format('woff');
+  font-family: "nordica_plnordicaclassicrgext";
+  src: url("../fonts/nordicaclassicrgext-webfont.woff2") format("woff2"),
+    url("../fonts/nordicaclassicrgext-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-
 }
 
 @font-face {
-  font-family: 'nordica_pnordicaclassicrgcond';
-  src: url('../fonts/nordicaclassicrgcond-webfont.woff2') format('woff2'),
-       url('../fonts/nordicaclassicrgcond-webfont.woff') format('woff');
+  font-family: "nordica_pnordicaclassicrgcond";
+  src: url("../fonts/nordicaclassicrgcond-webfont.woff2") format("woff2"),
+    url("../fonts/nordicaclassicrgcond-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-
 }
-
 
 html {
   padding: 0;
   margin: 0;
-  background: #8C6D46;
+  background: #8c6d46;
   color: #ffffff;
 }
 
-body{
+body {
   padding: 0;
   margin: 0;
 }
 
-header{
+header {
   background-image: url("../images/back_vik.jpg");
   background-size: 100%;
   height: 30vh;
@@ -47,7 +44,6 @@ header{
 nav {
   height: 10vh;
   width: 98vw;
-  
 }
 
 #navId {
@@ -57,29 +53,29 @@ nav {
 
 #navId li {
   list-style: none;
-  font-family: 'nordica_pnordicaclassicrgcond', 'Sans-serif', 'Arial';
+  font-family: "nordica_pnordicaclassicrgcond", "Sans-serif", "Arial";
 }
 
-h1{
-  font-family: 'viking-normalregular', 'Arial', 'Sans-serif';
-  position: absolute;
-  bottom: -8vh;
+h1 {
+  font-family: "viking-normalregular", "Arial", "Sans-serif";
+  font-size: 1.5em;
+  padding-left: 0.5em;
 }
 
-h2{
-  font-family: 'viking-normalregular', 'Arial', 'Sans-serif';
+h2 {
+  font-family: "viking-normalregular", "Arial", "Sans-serif";
 }
 
-p{
-  font-family: 'nordica_plnordicaclassicrgext', 'Sans-serif', 'Arial';
+p {
+  font-family: "nordica_plnordicaclassicrgext", "Sans-serif", "Arial";
 }
 
-#intro_text{
-	max-width: 80vw;
-	align-content: center;
-	margin-left: auto;
+#intro_text {
+  max-width: 80vw;
+  align-content: center;
+  margin-left: auto;
   margin-right: auto;
-  margin-top: 4vw; 
+  margin-top: 4vw;
 }
 
 li {
@@ -91,11 +87,10 @@ li {
 
 a {
   text-decoration: none;
-  color:#ffffff;;
+  color: #ffffff;
 }
 
-#main_intro{
-  
+#main_intro {
 }
 
 a:link {
@@ -126,14 +121,21 @@ a:active {
 
   #navId {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    margin-top: 0;
+    padding-top: 2vh;
+    padding-left: 0;
+  }
+
+  #h1Top {
+    display: block;
   }
 
   .historicalParagraph {
     max-width: 200px;
   }
 
-  img{
-	display: none;
+  img {
+    display: none;
   }
 }
