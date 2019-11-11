@@ -1,0 +1,22 @@
+Persona
+
+Andrea is a 28 year old Italian bussiness man, who works in a company located in Italy.
+Even though the company is located in Italy, they do a lot of work abroad. 
+For the company's next project, they've asked Andrea to spend one year in Scandinavia.
+Andrea is excited, because he has never been to scandinavia before. 
+He has heard a lot about it though, and wants to find out more about the 
+Scandinavian history. He reads a few articles about the history, and finds
+a passage about Vikings. He is intrigued. 
+During his time in Scandinavia he'll be doing a lot of traveling.
+He will travel with bus, train and plane, between Norway, Denmark and Sweeden. 
+He wont have much spare time, but he has decided to use the time he spends on
+transportation to read about the Vikings. Since he'll be going from meeting to meeting,
+he cannot drag around books and magazines about Vikings. 
+Andrea needs a webpage that supplies historical information about the viking
+era in Scandinavia. He needs it to be availible on mobile, since he will
+be reading it while he travels. He does not want to scroll through a whole book,
+but rather he wants a webpage that describes the scandinavian viking era short and
+consise, with links to external resources where he can read more about 
+historical aspects that he finds interesting.
+
+ 
