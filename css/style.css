@@ -76,6 +76,11 @@ h2 {
   font-family: "viking-normalregular", "Arial", "Sans-serif";
 }
 
+img {
+  width: 200px;
+  height: auto;
+}
+
 p {
   font-family: "nordica_plnordicaclassicrgext", "Sans-serif", "Arial";
 }
