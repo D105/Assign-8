@@ -54,13 +54,11 @@ details > summary::-webkit-details-marker {
   display: none;
 }
 
-.countries {
-  margin-left: 2em;
-}
-
 #navId {
   display: flex;
   justify-content: flex-end;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: 0;
 }
 
 #navId li {
@@ -83,7 +81,7 @@ p {
 }
 
 #intro_text {
-  max-width: 80vw;
+  max-width: 500px;
   align-content: center;
   margin-left: auto;
   margin-right: auto;
@@ -97,12 +95,17 @@ li {
   justify-content: space-evenly;
 }
 
+#unicodeLi {
+  padding: 1.4em;
+}
+
+.countries {
+  padding: 0.5em;
+}
+
 a {
   text-decoration: none;
   color: #ffffff;
-}
-
-#main_intro {
 }
 
 a {
@@ -147,6 +150,11 @@ input {
   font-size: 1em;
 }
 
+footer {
+  position: relative;
+  bottom: 0;
+}
+
 /**
     This part (responsivity) was made for Paal Kobbeltvedt
 **/
@@ -157,7 +165,7 @@ input {
     margin-top: 0;
     padding-top: 2vh;
     padding-left: 0;
-    background-color: rgba(0, 0, 0, 0.4);
+
     width: 100%;
   }
 
