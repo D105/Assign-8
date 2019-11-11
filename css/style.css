@@ -105,6 +105,11 @@ a {
 #main_intro {
 }
 
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 a:link {
   color: #ffffff;
 }
@@ -123,6 +128,23 @@ a:active {
 
 .historicalParagraph {
   max-width: 300px;
+}
+
+#pics_email li {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+textarea,
+input {
+  width: 100%;
+  margin-bottom: 2vh;
+  box-sizing: border-box;
+  font-size: 1em;
 }
 
 /**
@@ -176,5 +198,23 @@ a:active {
     align-self: center;
     text-align: center;
     font-size: 1.4em;
+  }
+
+  #pics_email {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contactImage {
+    display: block;
+    min-width: 150px;
+    max-width: 200px;
+    height: auto;
+  }
+
+  form {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
