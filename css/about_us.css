@@ -85,7 +85,7 @@ p{
 }
 
 form{
-    width: 10vw;
+    width: 30vw;
     margin: 1vw;
     background: rgba(0, 0, 0, 0.2);
 }
@@ -95,7 +95,7 @@ textarea, input{
     width: 100%;
     margin-bottom: 2vh;
     box-sizing: border-box;
-    font-size:
+    font-size: 1vw;
 }
   
 a{
