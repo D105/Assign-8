@@ -40,18 +40,9 @@ header {
   height: 30vh;
   position: relative;
 }
-
 nav {
   height: 20%;
   width: 100%;
-}
-
-details {
-  font-family: "nordica_pnordicaclassicrgcond", "Sans-serif", "Arial";
-}
-
-details > summary::-webkit-details-marker {
-  display: none;
 }
 
 #navId {
@@ -64,6 +55,14 @@ details > summary::-webkit-details-marker {
 #navId li {
   list-style: none;
   font-family: "nordica_pnordicaclassicrgcond", "Sans-serif", "Arial";
+}
+
+details {
+  font-family: "nordica_pnordicaclassicrgcond", "Sans-serif", "Arial";
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
 }
 
 h1 {
@@ -161,7 +160,7 @@ footer {
 }
 
 /**
-    This part (responsivity) was made for Paal Kobbeltvedt
+    This part (responsivity) was made by candidate number 124
 **/
 @media only screen and (max-width: 600px) {
   #navId {
