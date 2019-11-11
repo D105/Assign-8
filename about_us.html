@@ -3,60 +3,97 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="description" content="Swedish Viking Culture" />
-        <meta name="keyworkds" content="swedish, vikings, culture, history" />
-        <meta name="author" content="Dikult105 group" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="css/about_us.css" title="v1" />
-        <title>
-        About us
-        </title>
-        <meta name="robots" content="noindex, nofollow" />
-        <meta name="robots" content="noarchive" />
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul id="navId">
-                    <li><a href="mainPage.html">Home</a></li>
-                    <li><a href="about_us.html">About us</a></li>
-                    <li><a href="norwegian.html">Norway</a></li>
-                    <li><a href="swedish.html">Sweeden</a></li>
-                    <li><a href="danish.html">Denmark</a></li>
-                </ul>
-            </nav>
-        </header>
-        <!--Structure: pics with email, contact form-->
-        <main>
-            <h1>About us</h1>
-            <article>
-                <ul id="pics_email">
-                    <li>
-                        <img src="images/viking.jpg" width="350px" height="300px" alt="first pic of us">
-                        <p>Contact email: <a href="mailto:julio@email.com">juliocontact@email.com</a></p> 
-                    </li>
-                    <li>
-                        <img src="images/viking.jpg" width="350px" height="300px" alt="second pic of us">
-                        <p>Contact email: <a href="mailto:paalcontact@email.com">paalcontact@email.com</a></p> 
-                    </li>
-                    <li>
-                        <img src="images/viking.jpg" width="350px" height="300px" alt="third pic of us">
-                        <p>Contact email: <a href="Christoffercontact@email.com">Christoffercontact@email.com</a></p> 
-                    </li>
-                </ul>
-            </article>
-            <article>
-                <form>
-                    <h2>
-                        Contact
-                    </h2>
-                    <input type="text" placeholder="Name" class="label_title">
-                    <input type="email" placeholder="Email" class="label_title">
-                    <textarea placeholder="Write the message here" class="label_title"></textarea>
-                    <input type="button" value="Send">
-                </form>
-            </article>
-        </main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Swedish Viking Culture" />
+    <meta name="keyworkds" content="swedish, vikings, culture, history" />
+    <meta name="author" content="Dikult105 group" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/about_us.css" title="v1" />
+    <title>
+      About us
+    </title>
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="robots" content="noarchive" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul id="navId">
+          <li><a href="mainPage.html">Home</a></li>
+          <li id="unicodeLi">
+            <details>
+              <summary>&#9776; Countries</summary>
+              <ul>
+                <li class="countries"><a href="norwegian.html">Norway</a></li>
+                <li class="countries"><a href="swedish.html">Sweeden</a></li>
+                <li class="countries"><a href="danish.html">Denmark</a></li>
+              </ul>
+            </details>
+          </li>
+          <li id="aboutUs"><a href="about_us.html">About us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--Structure: pics with email, contact form-->
+    <main>
+      <h1>About us</h1>
+      <article>
+        <ul id="pics_email">
+          <li>
+            <img
+              src="images/viking.jpg"
+              width="350px"
+              height="300px"
+              alt="first pic of us"
+            />
+            <p>
+              Contact email:
+              <a href="mailto:julio@email.com">juliocontact@email.com</a>
+            </p>
+          </li>
+          <li>
+            <img
+              src="images/viking.jpg"
+              width="350px"
+              height="300px"
+              alt="second pic of us"
+            />
+            <p>
+              Contact email:
+              <a href="mailto:paalcontact@email.com">paalcontact@email.com</a>
+            </p>
+          </li>
+          <li>
+            <img
+              src="images/viking.jpg"
+              width="350px"
+              height="300px"
+              alt="third pic of us"
+            />
+            <p>
+              Contact email:
+              <a href="Christoffercontact@email.com"
+                >Christoffercontact@email.com</a
+              >
+            </p>
+          </li>
+        </ul>
+      </article>
+      <article>
+        <form>
+          <h2>
+            Contact
+          </h2>
+          <input type="text" placeholder="Name" class="label_title" />
+          <input type="email" placeholder="Email" class="label_title" />
+          <textarea
+            placeholder="Write the message here"
+            class="label_title"
+          ></textarea>
+          <input type="button" value="Send" />
+        </form>
+      </article>
+    </main>
   </body>
+</html>

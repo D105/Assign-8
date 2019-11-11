@@ -125,6 +125,9 @@ a:active {
   max-width: 300px;
 }
 
+/**
+    This part (responsivity) was made for Paal Kobbeltvedt
+**/
 @media only screen and (max-width: 600px) {
   #navId {
     display: flex;
