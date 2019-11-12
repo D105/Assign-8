@@ -80,10 +80,17 @@ h2 {
   font-family: "viking-normalregular", "Arial", "Sans-serif";
 }
 
+#special{
+  width: 200px;
+  height: 225px;
+}
+
 img {
   width: 200px;
   height: auto;
 }
+
+
 
 p {
   font-family: "nordica_plnordicaclassicrgext", "Sans-serif", "Arial";
@@ -143,12 +150,6 @@ a:active {
 
 .historicalParagraph {
   max-width: 300px;
-}
-
-
-footer {
-  position: relative;
-  bottom: 0;
 }
 
 /**
