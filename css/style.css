@@ -180,6 +180,14 @@ a:active {
     display: block;
   }
 
+  #main_text{
+    max-width: 80vw;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+  }
+
   .historicalParagraph {
     max-width: 200px;
     padding-left: 0.5em;

@@ -184,6 +184,14 @@ details > summary::-webkit-details-marker {
     padding: 0.3em;
   }
 
+  #intro_text{
+    max-width: 80vw;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+  }
+
 
   #pics_email {
     display: flex;
