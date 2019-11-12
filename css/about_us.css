@@ -59,7 +59,11 @@ nav {
 #navId li {
   list-style: none;
   font-family: "nordica_pnordicaclassicrgcond", "Sans-serif", "Arial";
-  padding: 1vh;
+
+}
+
+li{
+  padding: 1.6em;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -73,12 +77,12 @@ details > summary::-webkit-details-marker {
   display: none;
 }
 
-.countries {
-  padding: 0.5em;
-}
-
 #unicodeLi {
   padding: 1.4em;
+}
+
+.countries {
+  padding: 0.5em;
 }
 
 h1 {
