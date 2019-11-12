@@ -1,3 +1,7 @@
+/*
+  This part was made for cand_number 114
+*/
+
 @font-face {
   font-family: "viking-normalregular";
   src: url("../fonts/viking-normal-webfont.woff2") format("woff2"),
@@ -40,15 +44,16 @@ header {
   height: 30vh;
   position: relative;
 }
-
 nav {
   height: 10vh;
-  width: 98vw;
+  width: 100%;
 }
 
 #navId {
   display: flex;
   justify-content: flex-end;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: 0;
 }
 
 #navId li {
@@ -58,6 +63,10 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.countries {
+  padding: 0.5em;
 }
 
 h1 {
@@ -84,17 +93,35 @@ p {
 }
 
 form {
-  width: 30vw;
-  margin: 1vw;
+  width: 50vw;
+  margin: 0.5vw;
   background: rgba(0, 0, 0, 0.2);
 }
 
 textarea,
 input {
-  width: 100%;
+  width: 45vw;
   margin-bottom: 2vh;
+  margin-left: 2vh;
   box-sizing: border-box;
-  font-size: 1vw;
+  font-size: 1.5vw;
+  
+}
+
+textarea{
+  min-height: 20vh;
+  max-height: 50vh;
+  max-width: 45vw;
+  min-width: 45vw;
+}
+
+#button{
+  background: rgb(192, 192, 192);
+  padding: 0.5vw;
+}
+
+#button:hover{
+  cursor: pointer;
 }
 
 a {
@@ -106,14 +133,31 @@ a:link {
   color: #ffffff;
 }
 
-a:visited {
+details > summary::-webkit-details-marker {
+  display: none;
 }
 
-a:focus {
-}
+@media only screen and (max-width: 600px) {
+  #pics_email {
+    display: flex;
+    flex-direction: column;
+  }
 
-a:hover {
-}
+  .contactImage {
+    display: block;
+    min-width: 150px;
+    max-width: 200px;
+    height: auto;
+  }
 
-a:active {
+  form {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  textarea, input {
+    font-size: 2.5vw;
+    margin-left: 12vw;
+  }
 }

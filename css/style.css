@@ -1,3 +1,8 @@
+/**
+    This part (fonts, color) was made by candidate number 114
+    General style was made between candidate 114 and 124
+**/
+
 @font-face {
   font-family: "viking-normalregular";
   src: url("../fonts/viking-normal-webfont.woff2") format("woff2"),
@@ -41,7 +46,7 @@ header {
   position: relative;
 }
 nav {
-  height: 20%;
+  height: 10vh;
   width: 100%;
 }
 
@@ -199,21 +204,4 @@ footer {
     font-size: 1.4em;
   }
 
-  #pics_email {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .contactImage {
-    display: block;
-    min-width: 150px;
-    max-width: 200px;
-    height: auto;
-  }
-
-  form {
-    width: 80vw;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
