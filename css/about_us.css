@@ -87,6 +87,8 @@ details > summary::-webkit-details-marker {
 
 h1 {
   font-family: "viking-normalregular", "Arial", "Sans-serif";
+  font-size: 1.5em;
+  padding-left: 0.5em;
 }
 
 h2 {

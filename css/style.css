@@ -82,16 +82,19 @@ h2 {
 
 #special{
   width: 200px;
-  height: 225px;
+  height: 200px;
 }
 
 img {
   width: 200px;
   height: auto;
+  margin-bottom: 2vh;
 }
 
 p {
-  font-family: "nordica_plnordicaclassicrgext", "Sans-serif", "Arial";
+  font-family: "Open Sans", "Sans-serif", "Arial";
+  font-size: 1em;
+  margin-bottom: 10vh;
 }
 
 #intro_text {
@@ -110,7 +113,7 @@ p {
   margin-top: 4vw;
 }
 
-li {
+.nav_li{
   padding: 1.6em;
   display: flex;
   flex-direction: row;
@@ -146,9 +149,52 @@ a:hover {
 a:active {
 }
 
-.historicalParagraph {
-  max-width: 300px;
+
+/*
+  Starting the timeline
+*/
+
+.timeline{
+  display: flex;
+  position: relative;
+  max-width: 40vw;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
+
+.timeline::after{
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+
+}
+
+.historicalParagraph {
+  padding-right: 3vw;
+  position: relative;
+  background-color: inherit;
+  width: 20vw;
+  margin-right: 2vw;
+}
+
+.historicalParagraph::after{
+  content: '';
+  position: absolute;
+  width: 1vw;
+  height: 2vh;
+  left: 19.4vw;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 2vh;
+  border-radius: 1%;
+  z-index: 1; 
+}
+
 
 /**
     This part (responsivity) was made by candidate number 124
