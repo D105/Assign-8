@@ -30,7 +30,8 @@
 html {
   padding: 0;
   margin: 0;
-  background: #8c6d46;
+  background-color: #73544d;
+  background-image: url("../images/leather.png");
   color: #ffffff;
 }
 
@@ -40,10 +41,11 @@ body {
 }
 
 header {
-  background-image: url("../images/back_vik.jpg");
-  background-size: 100%;
-  height: 30vh;
+  background-image: url("../images/back.jpg"); 
+  background-size: 100vw 75vh;
+  height: 20vh;
   position: relative;
+  padding-bottom: 20vh;
 }
 nav {
   height: 10vh;
@@ -83,6 +85,11 @@ h2 {
 #special{
   width: 200px;
   height: 200px;
+}
+
+#ship_image{
+  width: 200px;
+  height: 140px;
 }
 
 img {
@@ -194,6 +201,8 @@ a:active {
   border-radius: 1%;
   z-index: 1; 
 }
+
+
 
 
 /**
