@@ -1,6 +1,7 @@
 /**
     This part (fonts, color) was made by candidate number 114
-    General style was made between candidate 114 and 124
+    General style was made between candidate 114
+    Responsivity candidate 124
 **/
 
 @font-face {
@@ -72,10 +73,24 @@ details > summary::-webkit-details-marker {
   display: none;
 }
 
+aside{
+  margin-left: 5vw;
+}
+
+aside p{
+  width: 10vw;
+  margin-bottom: 2vh;
+}
+
 h1 {
   font-family: "viking-normalregular", "Arial", "Sans-serif";
   font-size: 1.5em;
   padding-left: 0.5em;
+}
+
+#main_subtitle{
+  margin-left: 28vw;
+  margin-top: 4vw;
 }
 
 h2 {
@@ -105,19 +120,24 @@ p {
 }
 
 #intro_text {
-  max-width: 90%;
+  max-width: 50vw;
   align-content: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: 4vw;
 }
 
-#main_text{
+.main_text{
   max-width: 40vw;
   align-content: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 4vw;
+  margin-bottom: 0;
+}
+
+#join_content{
+  display: flex;
+  flex-direction: row;
 }
 
 .nav_li{
