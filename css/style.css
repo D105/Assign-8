@@ -65,12 +65,27 @@ nav {
   font-family: "nordica_pnordicaclassicrgcond", "Sans-serif", "Arial";
 }
 
+.nav_li{
+  padding: 1.6em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 details {
   font-family: "nordica_pnordicaclassicrgcond", "Sans-serif", "Arial";
 }
 
 details > summary::-webkit-details-marker {
   display: none;
+}
+
+#unicodeLi {
+  padding: 1.4em;
+}
+
+.countries {
+  padding: 0.5em;
 }
 
 aside{
@@ -135,25 +150,10 @@ p {
   margin-bottom: 0;
 }
 
-#join_content{
+/*.join_content{
   display: flex;
   flex-direction: row;
-}
-
-.nav_li{
-  padding: 1.6em;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-#unicodeLi {
-  padding: 1.4em;
-}
-
-.countries {
-  padding: 0.5em;
-}
+}*/
 
 a {
   text-decoration: none;
@@ -222,8 +222,27 @@ a:active {
   z-index: 1; 
 }
 
+footer{
+  background: #455159;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  height: 90px;
+}
 
+footer p{
+  margin-bottom: 0;
+}
 
+footer img{
+  width: 25px;
+  height: 25px;
+}
+
+#join_footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /**
     This part (responsivity) was made by candidate number 124

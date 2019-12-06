@@ -29,7 +29,8 @@
 html {
   padding: 0;
   margin: 0;
-  background: #8c6d46;
+  background-color: #73544d;
+  background-image: url("../images/leather.png");
   color: #ffffff;
 }
 
@@ -39,10 +40,11 @@ body {
 }
 
 header {
-  background-image: url("../images/back_vik.jpg");
-  background-size: 100%;
-  height: 30vh;
+  background-image: url("../images/back.jpg"); 
+  background-size: 100vw 75vh;
+  height: 20vh;
   position: relative;
+  padding-bottom: 20vh;
 }
 nav {
   height: 10vh;
@@ -59,15 +61,15 @@ nav {
 #navId li {
   list-style: none;
   font-family: "nordica_pnordicaclassicrgcond", "Sans-serif", "Arial";
-
 }
 
-li{
+.nav_li{
   padding: 1.6em;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
+
 
 details {
   font-family: "nordica_pnordicaclassicrgcond", "Sans-serif", "Arial";
@@ -118,6 +120,11 @@ p {
   margin-top: 4vw;
 }
 
+img{
+  width: 350px;
+  height: 300px;
+}
+
 form {
   width: 50vw;
   margin: 0.5vw;
@@ -159,9 +166,29 @@ a:link {
   color: #ffffff;
 }
 
-details > summary::-webkit-details-marker {
-  display: none;
+footer{
+  background: #455159;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  height: 90px;
 }
+
+footer p{
+  margin-bottom: 0;
+}
+
+footer img{
+  width: 25px;
+  height: 25px;
+}
+
+#join_footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
 
 @media only screen and (max-width: 600px) {
   #navId {
