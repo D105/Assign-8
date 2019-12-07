@@ -109,7 +109,9 @@ ul {
 }
 
 p {
-  font-family: "nordica_plnordicaclassicrgext", "Sans-serif", "Arial";
+  font-family: "Open Sans", "Sans-serif", "Arial";
+  font-size: 1em;
+  margin-bottom: 10vh;
 }
 
 #intro_text {
