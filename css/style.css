@@ -91,6 +91,7 @@ details > summary::-webkit-details-marker {
 
 aside{
   margin-left: 5vw;
+  margin-top: 10vh;
 }
 
 aside p{
@@ -105,7 +106,6 @@ h1 {
 }
 
 #main_subtitle{
-  margin-left: 28vw;
   margin-top: 4vw;
 }
 
@@ -118,9 +118,9 @@ h2 {
   height: 200px;
 }
 
-#ship_image{
-  width: 200px;
-  height: 140px;
+#large_img{
+  width: 193px;
+  height: 130px;
 }
 
 img {
@@ -151,10 +151,15 @@ p {
   margin-bottom: 0;
 }
 
-/*.join_content{
+.join{
   display: flex;
   flex-direction: row;
-}*/
+}
+
+.join h2{
+  display: flex;
+  justify-content: left;
+}
 
 a {
   text-decoration: none;
@@ -189,6 +194,7 @@ a:active {
   margin: 0 auto;
   flex-direction: row;
   justify-content: space-evenly;
+  align-content: flex-start;
 }
 
 .timeline::after{
@@ -282,6 +288,15 @@ footer img{
 
   #intro_text{
     max-width: 90vw;
+  }
+
+  .join{
+    display: block;
+  }
+
+  #main_subtitle{
+    margin-top: 5vh;
+    margin-left: 2vw;
   }
 
   .historicalParagraph {
