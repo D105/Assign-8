@@ -244,4 +244,8 @@ footer img{
     font-size: 2.5vw;
     margin-left: 12vw;
   }
+
+  details{
+    margin-top: 2vh;
+  }
 }
