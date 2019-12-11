@@ -41,8 +41,8 @@ body {
 
 header {
   background-image: url("../images/back.jpg"); 
-  background-size: 100vw 75vh;
-  height: 20vh;
+  background-size: 100vw 40vh;
+  height: 10vh;
   position: relative;
   padding-bottom: 20vh;
 }
@@ -199,7 +199,6 @@ footer img{
     margin-top: 0;
     padding-top: 2vh;
     padding-left: 0;
-
     width: 100%;
   }
 

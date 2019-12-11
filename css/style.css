@@ -44,7 +44,7 @@ body {
 header {
   background-image: url("../images/back.jpg"); 
   background-size: 100vw 75vh;
-  height: 20vh;
+  height: 35vh;
   position: relative;
   padding-bottom: 20vh;
 }
@@ -105,7 +105,7 @@ h1 {
   padding-left: 0.5em;
 }
 
-#main_subtitle{
+.main_subtitle{
   margin-top: 4vw;
 }
 
@@ -118,7 +118,7 @@ h2 {
   height: 200px;
 }
 
-#large_img{
+.large_img{
   width: 193px;
   height: 130px;
 }
@@ -190,7 +190,7 @@ a:active {
 .timeline{
   display: flex;
   position: relative;
-  max-width: 40vw;
+  width: 40vw;
   margin: 0 auto;
   flex-direction: row;
   justify-content: space-evenly;
@@ -205,7 +205,6 @@ a:active {
   top: 0;
   bottom: 0;
   left: 50%;
-
 }
 
 .historicalParagraph {
@@ -234,6 +233,9 @@ footer{
   margin-bottom: 0;
   padding-bottom: 0;
   height: 90px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 footer p{
@@ -243,12 +245,6 @@ footer p{
 footer img{
   width: 25px;
   height: 25px;
-}
-
-#join_footer{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 /**
@@ -294,47 +290,88 @@ footer img{
     display: block;
   }
 
-  #main_subtitle{
-    margin-top: 5vh;
-    margin-left: 2vw;
+  ul{
+    padding-left: 0;
+  }
+
+  .timeline{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    position: relative;
   }
 
   .historicalParagraph {
-    padding-right: 40vw;
-    margin-right: 5vw;
+    padding-right: 0vw;
+    margin-right: 50vw;
+    margin-left: 2vw;
+    padding-left: 0;
+    width: 45vw;
   }
 
   .historicalParagraph::after{
     width: 15px;
     height: 15px;
-    left: 37vw;
+    left: 45vw;
   }
 
   aside img {
     display: block;
   }
 
+  #special{
+    width: auto;
+    height: 80px;
+  }
+  
+  .large_img{
+    width: auto;
+    height: 80px;
+  }
+
+
   img {
-    display: none;
+    position: absolute;
+    width: auto;
+    height: 80px;
+    top: 7vh;
+    right: 5vw;
+    
   }
 
   details{
-    margin-top: 2vh;
+    margin-top: 2.5vh;
   }
 
   h2 {
-    align-self: center;
-    text-align: center;
+    text-align: right;
     font-size: 1.4em;
+    position: absolute;
+    left: 65vw;
+  }
+
+  .main_subtitle{
+    position: inherit;
+    margin-top: 5vh;
+    margin-left: 2vw;
   }
 
   footer img{
     display: block;
-
+    position: inherit;
   }
-  .aside_p{
+
+  aside{
+    padding-left: 5vw;
+  }
+
+  aside p{
     margin-top: 3vh;
-    max-width: 100vw;
+    width: 50vw;
+  }
+
+  aside img{
+    position: inherit;
   }
 
   header {
